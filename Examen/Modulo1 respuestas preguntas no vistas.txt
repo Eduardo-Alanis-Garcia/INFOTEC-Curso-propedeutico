@@ -1,0 +1,37 @@
+Módulo 1: Examen módulo 1 : 
+Preguntas
+31 No está bien formulada
+41, 42, 43, 44, 45, 56, 57, 58, 59 No encaja con el módulo 1 (habla de pandas para lo de un siguiente módulo)
+
+41.- ¿Qué librería se importa normalmente para usar Pandas en Python?
+	Respuesta -> import pandas as pd
+     
+42.- ¿Qué comando crea un DataFrame a partir de un diccionario en Pandas?
+	R -> pd.DataFrame({"a":[1,2],"b":[3,4]})
+	
+43.- Si df es un DataFrame, ¿qué devuelve df.head(2)?
+	R -> Las dos primeras filas
+
+44.- import pandas as pd
+     df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
+     print(df["A"] + df["B"])
+	
+	R -> [5, 7, 9]
+	
+45.- import pandas as pd
+     df = pd.DataFrame({"x": [1, 2, 3, 4], "y": [10, 20, 30, 40]})
+     print(df[df["x"] > 2])
+	
+	R -> Filas donde x es mayor a 2
+
+56.- Pandas se utiliza principalmente para el manejo y análisis de datos estructurados en Python.
+	R -> Verdadero
+	
+57.- Un DataFrame de Pandas es similar a una tabla con filas y columnas.
+	R -> Verdadero
+
+58.- El método df.tail() devuelve siempre las primeras filas de un DataFrame.
+	R -> Falso
+	
+59.- Con Pandas se pueden leer archivos CSV, Excel y SQL.
+	R -> Verdadero
